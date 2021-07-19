@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,46 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+.MainPage {
+  text-align: center;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+.search {
+  background-color: teal;
+  flex-grow: 1;
+}
+
+.second-container {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 15;
+}
+
+.favorites {
+  background-color: blue;
+  flex-grow: 1;
+}
+.third-container {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 5;
+}
+
+.options {
+  background-color: darkgreen;
+  flex-grow: 1;
+}
+
+.passwords {
+  background-color: darkmagenta;
+  flex-grow: 8;
 }
