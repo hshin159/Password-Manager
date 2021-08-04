@@ -3,6 +3,6 @@ import './AddButton.css';
 
 export default function AddButton() {
     return (
-        <button className="add-button" type="button" onclick="Testing">+</button>
+        <button className="add-button" type="button" onClick="Testing">+</button>
     )
 }

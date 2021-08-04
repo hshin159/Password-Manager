@@ -9,21 +9,12 @@
   min-width: 100vw;
 }
 
-/* .search {
-  background-color: darkgrey;
-  flex-grow: 1;
-} */
-
 .second-container {
   display: flex;
   flex-direction: row;
   flex-grow: 15;
 }
 
-/* .favorites {
-  background-color: gray;
-  flex-grow: 1;
-} */
 .third-container {
   display: flex;
   flex-direction: column;
@@ -42,11 +33,6 @@
   flex-grow: 8;
 }
 
-/* .options {
-  flex-grow: 5;
-  background-color: white;
-} */
-
 .add-button-area {
   flex-grow: 1;
   display: flex;
@@ -56,9 +42,5 @@
   text-align: center;
 }
 
-
-/* .add-button:hover{
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-} */
 
 
