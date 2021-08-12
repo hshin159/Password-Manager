@@ -1,4 +1,52 @@
 .options {
     flex-grow: 5;
     background-color: white;
+    display: flex;
+    flex-direction: column;
+
   }
+
+.dropdown {
+  text-align: center;
+  display: inline-block;
+  width: 10em;
+  height: 3em;
+  padding: 5px;
+  /* border: 1px solid blue;     */
+  background-color: lightcoral; 
+  border-radius: 10px;
+
+}
+
+.dropdown:hover{
+  border-radius: 10px 10px 0 0;
+}
+
+.choices{
+  display: none;
+}
+
+.dropdown:hover + .recentlyUsed{
+  background-color: gray;
+  display: inline-block;
+  width: 10em;
+  height: 3em;
+  padding: 5px;
+}
+
+.recentlyUsed{
+  display: none;
+}
+
+.recentlyUsed:hover{
+  background-color: gray;
+  display: inline-block;
+  width: 10em;
+  height: 3em;
+  padding: 5px;
+}
+
+/* .dropdown:hover + .recentlyUsed{
+  color: gray;
+  display: block;
+} */
